@@ -18,9 +18,11 @@ body {
 }
 
 @media (max-width:768px) {
+
   .header { 
     text-align: center;
   }
+  
 }
 .main-element {
   display: block;
@@ -68,6 +70,7 @@ label[for="new-task"] {
   margin: 0;
   text-transform: uppercase;
 }
+
 input[type="text"] {
   margin: 0;
   font-size: 18px;
