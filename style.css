@@ -16,8 +16,12 @@
   width: 100%;
 }
 
-.header .more-info {
+.header .header__more-info {
   font-family: fantasy, cursive;
+}
+
+.header__title {
+    font-size: 1rem;
 }
 
 @media (max-width: 768px) {
@@ -28,16 +32,10 @@
 
 }
 
-.main-element {
+.tasks {
   display: block;
   width: 500px;
   margin: 0 auto 0;
-}
-
-.task {
-  width: 56%;
-  display: inline-block;
-  flex-grow: 1;
 }
 
 .task-wrapper {
@@ -94,6 +92,9 @@
   border-radius: 6px;
   font-family: Lato, sans-serif;
   color: #888;
+  width: 56%;
+  display: inline-block;
+  flex-grow: 1;
 }
 
 .task__input-text:focus {
@@ -134,6 +135,9 @@ label[for="new-task"] {
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
+  width: 56%;
+  display: inline-block;
+  flex-grow: 1;
 }
 
 .task__input-text {
